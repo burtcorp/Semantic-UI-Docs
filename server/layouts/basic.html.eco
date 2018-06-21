@@ -160,6 +160,7 @@
 <body id="example" class="pushable <%= @document.css %>" ontouchstart="">
   <%- @content %>
   <script src="/javascript/library/less.js"></script>
+  <%- @getBlock('scripts').toHTML() %>
 </body>
 
 </html>
