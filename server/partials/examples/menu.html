@@ -1,109 +1,36 @@
-<div class="ui three item menu">
-  <a class="active item">
-    A
-  </a>
-  <a class="item">
-    B
-  </a>
-  <a class="item">
-    C
-  </a>
-</div>
-<div class="ui vertical demo menu">
-  <a class="active item">
-    A
-  </a>
-  <a class="item">
-    B
-    <div class="ui label">1</div>
-  </a>
-  <div class="item">
-  <div class="ui transparent icon input">
-      <input type="text" placeholder="Search...">
-      <i class="search icon"></i>
+<div class="ui basic menu">
+  <div class="page-title">
+    <div class="icon">
+      <img class="ui image" src="/images/icons/message.png">
+    </div>
+    <div class="item-name">
+      <span class="title">Reports</span>
+      <div class="ui mini breadcrumb">
+        <a class="section">My Report</a>
+        <i class="right chevron icon divider"></i>
+        <a class="active section">Edit</a>
+      </div>
     </div>
   </div>
-</div>
-<div class="ui tabular menu">
-  <a class="active item">
-    Tab
-  </a>
-  <a class="item">
-    Tab
-  </a>
-</div>
-<div class="ui text demo menu">
-  <a class="active item">
-    A
-  </a>
-  <a class="item">
-    B
-  </a>
-  <a class="item">
-    C
-  </a>
-</div>
-<div class="ui secondary demo menu">
-  <a class="active item">
-    A
-  </a>
-  <a class="item">
-    B
-  </a>
-  <a class="item">
-    C
-  </a>
-</div>
-<div class="ui secondary pointing three item demo menu">
-  <a class="active item">
-    A
-  </a>
-  <a class="item">
-    B
-  </a>
-  <a class="item">
-    C
-  </a>
-</div>
-<div class="ui secondary vertical demo menu">
-  <a class="active item">
-    A
-  </a>
-  <a class="item">
-    B
-  </a>
-  <a class="item">
-    C
-  </a>
-</div>
-<div class="ui secondary pointing vertical demo menu">
-  <a class="active item">
-    A
-  </a>
-  <a class="item">
-    B
-  </a>
-  <a class="item">
-    C
-  </a>
+  <div class="right menu">
+    <i class="bell icon"></i>
+    <img class="ui avatar image" src="/images/wireframe/square-image.png">
+  </div>
 </div>
 
 <script type="text/javascript">
-$(document)
-  .ready(function(){
-    $('.demo .example .menu a.item')
-      .on('click', function() {
-        if(!$(this).hasClass('dropdown')) {
-          $(this)
-            .addClass('active')
-            .closest('.ui.menu')
-            .find('.item')
+  $(document)
+    .ready(function () {
+      $('.demo .example .menu a.item')
+        .on('click', function () {
+          if (!$(this).hasClass('dropdown')) {
+            $(this)
+              .addClass('active')
+              .closest('.ui.menu')
+              .find('.item')
               .not($(this))
-              .removeClass('active')
-          ;
-        }
-      })
-    ;
-  })
-;
+              .removeClass('active');
+          }
+        });
+    });
 </script>
