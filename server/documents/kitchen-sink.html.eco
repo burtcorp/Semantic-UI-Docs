@@ -24,39 +24,15 @@ description : 'Examples of all user interface elements'
     </div>
     <div class="example">
       <h4 class="ui header">
-        <a href="/elements/divider.html">Divider</a>
-      </h4>
-      <%- @partial('examples/divider') %>
-    </div>
-    <div class="example">
-      <h4 class="ui header">
-        <a href="/elements/flag.html">Flag</a>
-      </h4>
-      <%- @partial('examples/flag') %>
-    </div>
-    <div class="example">
-      <h4 class="ui header">
-        <a href="/elements/header.html">Header</a>
-      </h4>
-      <%- @partial('examples/header') %>
-    </div>
-    <div class="example">
-      <h4 class="ui header">
-        <a href="/elements/icon.html">Icon</a>
-      </h4>
-      <%- @partial('examples/icon') %>
-    </div>
-    <div class="example">
-      <h4 class="ui header">
-        <a href="/elements/image.html">Image</a>
-      </h4>
-      <%- @partial('examples/image') %>
-    </div>
-    <div class="example">
-      <h4 class="ui header">
         <a href="/elements/input.html">Input</a>
       </h4>
       <%- @partial('examples/input') %>
+    </div>
+    <div class="example">
+      <h4 class="ui header">
+        <a href="/elements/divider.html">Divider</a>
+      </h4>
+      <%- @partial('examples/divider') %>
     </div>
     <div class="example">
       <h4 class="ui header">
@@ -70,30 +46,6 @@ description : 'Examples of all user interface elements'
       </h4>
       <%- @partial('examples/list') %>
     </div>
-    <div class="example">
-      <h4 class="ui header">
-        <a href="/elements/loader.html">Loader</a>
-      </h4>
-      <%- @partial('examples/loader') %>
-    </div>
-    <div class="example">
-      <h4 class="ui header">
-        <a href="/elements/list.html">Reveal</a>
-      </h4>
-      <%- @partial('examples/reveal') %>
-    </div>
-    <div class="example">
-      <h4 class="ui header">
-        <a href="/elements/segment.html">Segment</a>
-      </h4>
-      <%- @partial('examples/segment') %>
-    </div>
-    <div class="example">
-      <h4 class="ui header">
-        <a href="/elements/step.html">Step</a>
-      </h4>
-      <%- @partial('examples/step') %>
-    </div>
   </div>
   <div class="ui tab" data-tab="collections">
     <h2 class="ui dividing header">
@@ -105,18 +57,6 @@ description : 'Examples of all user interface elements'
         <a href="/collections/breadcrumb.html">Breadcrumb</a>
       </h4>
       <%- @partial('examples/breadcrumb') %>
-    </div>
-    <div class="example">
-      <h4 class="ui header">
-        <a href="/collections/form.html">Form</a>
-      </h4>
-      <%- @partial('examples/form') %>
-    </div>
-    <div class="example">
-      <h4 class="ui header">
-        <a href="/collections/grid.html">Grid</a>
-      </h4>
-      <%- @partial('examples/grid') %>
     </div>
     <div class="example">
       <h4 class="ui header">
