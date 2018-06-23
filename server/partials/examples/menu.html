@@ -1,20 +1,55 @@
-<div class="ui basic menu">
-  <div class="page-title">
-    <div class="icon">
-      <img class="ui image" src="/images/icons/message.png">
-    </div>
-    <div class="item-name">
-      <span class="title">Reports</span>
-      <div class="ui mini breadcrumb">
-        <a class="section">My Report</a>
-        <i class="right chevron icon divider"></i>
-        <a class="active section">Edit</a>
+<div class="menu">
+  <p>Full Menu</p>
+  <div class="ui basic menu">
+    <div class="page-title">
+      <div class="icon">
+        <img class="ui image" src="/images/icons/message.png">
+      </div>
+      <div class="item-name">
+        <span class="title">Reports</span>
+        <div class="ui mini breadcrumb">
+          <a class="section">My Report</a>
+          <i class="right chevron icon divider"></i>
+          <a class="active section">Edit</a>
+        </div>
       </div>
     </div>
+    <div class="right menu">
+      <i class="bell icon"></i>
+      <img class="ui avatar image" src="/images/wireframe/square-image.png">
+    </div>
   </div>
-  <div class="right menu">
-    <i class="bell icon"></i>
-    <img class="ui avatar image" src="/images/wireframe/square-image.png">
+
+  <p>Without Breadcrumb</p>
+  <div class="ui basic menu">
+    <div class="page-title">
+      <div class="icon">
+        <img class="ui image" src="/images/icons/message.png">
+      </div>
+      <div class="item-name">
+        <span class="title">Reports</span>
+      </div>
+    </div>
+    <div class="right menu">
+      <i class="bell icon"></i>
+      <img class="ui avatar image" src="/images/wireframe/square-image.png">
+    </div>
+  </div>
+
+  <p>Extra</p>
+  <div class="ui basic mini menu">
+    <div class="ui toggle checkbox">
+      <span>Share with Advertiser</span>
+      <input type="checkbox">
+      <label></label>
+    </div>
+    <div class="right menu">
+      <div class="ui basic mini buttons">
+        <div class="ui button">Your View</div>
+        <div class="ui button">Advertiser View</div>
+      </div>
+      <div class="ui basic mini button">Sharing</div>
+    </div>
   </div>
 </div>
 
@@ -32,5 +67,10 @@
               .removeClass('active');
           }
         });
+    });
+  $(document)
+    .ready(function () {
+      $('.ui.checkbox')
+        .checkbox();
     });
 </script>

@@ -54,7 +54,7 @@ description : 'Examples of all user interface elements'
 
     <div class="example">
       <h4 class="ui header">
-        <a href="/collections/menu.html">Menu With Breadcrumb</a>
+        <a href="/collections/menu.html">Menu</a>
       </h4>
       <%- @partial('examples/menu') %>
     </div>
