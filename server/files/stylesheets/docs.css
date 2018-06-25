@@ -2582,3 +2582,9 @@ code .chunk {
   }
 
 }
+
+.login {
+  background-image: url('../images/backgrounds/login-background.png');
+  background-position: bottom left;
+  background-color: #F5F7F9;
+}

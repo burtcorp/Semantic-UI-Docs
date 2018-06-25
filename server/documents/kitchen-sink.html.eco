@@ -111,5 +111,11 @@ description : 'Examples of all user interface elements'
       </h4>
       <%- @partial('examples/sidebar') %>
     </div>
+    <div class="example">
+      <h4 class="ui header">
+        <a href="/modules/login.html">Login</a>
+      </h4>
+      <%- @partial('examples/login') %>
+    </div>
   </div>
 </div>
