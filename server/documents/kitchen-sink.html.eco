@@ -117,5 +117,11 @@ description : 'Examples of all user interface elements'
       </h4>
       <%- @partial('examples/login') %>
     </div>
+    <div class="example">
+      <h4 class="ui header">
+        <a href="/modules/hub.html">Hub</a>
+      </h4>
+      <%- @partial('examples/hub') %>
+    </div>
   </div>
 </div>
