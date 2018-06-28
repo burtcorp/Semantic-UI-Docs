@@ -20,7 +20,7 @@
           <%- @partial('site-menu') %>
         </div>
       </div>
-      <div class="article">
+      <div class="article ui light-bg">
         <%- @content %>
         <%- @partial('footer') %>
       </div>
